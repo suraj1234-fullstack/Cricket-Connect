@@ -4,11 +4,11 @@ const herosection = () => {
   return (
 
     <>
-    <div className='heros1'>
+    <div className='heros1' style={{marginTop:'10px'}}>
 
    
 
-    <div className="txtbox12"style={{fontFamily:'serif'}}>
+    <div className="txtbox12"style={{fontFamily:'serif',marginTop:'3%'}}>
       
         <p style={{fontSize:'0.9rem',color:'grey'}}><i  style={{color:"#1e65cf"}} class="fa-solid fa-circle"></i>AI-NATIVE CRICKET INTELLIENCE</p>
 
@@ -21,10 +21,10 @@ const herosection = () => {
           </span></p>
 
           
-       <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:' 5% 0%'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
+       <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:' 3% 0%'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
        
        
-       <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'14px'}}>Explore CC  pro </a>
+       <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'14px'}}>Explore CC  pro → </a>
 
        <a style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'14px',color:'black',marginLeft:'10px'}}>&Try CC AI free</a>
     </div>
@@ -43,7 +43,7 @@ const herosection = () => {
 
 
 
-      <div className="logoec12" style={{display:'flex',alignItems:'center',justifyContent:'space-between',minHeight:'4rem',flexWrap:'wrap',padding:'30px 40px', backgroundColor:"#ebe1e1",boxSizing:'border-box'}}>
+      <div className="logoec12" style={{display:'flex',alignItems:'center',justifyContent:'space-between',minHeight:'4rem',flexWrap:'wrap',padding:'30px 40px', backgroundColor:"#d4d4d4d5",boxSizing:'border-box'}}>
       
       
       <div  className='logoec123' style={{ flex:'1.5', minWidth:'250px',maxWidth:'350px',lineHeight:'1.2'} }>
@@ -57,7 +57,7 @@ across professional teams, leagues and competitions</p>
         <img  style={{width:'50px'}} src="https://cricketconnect.ai/images/crests/kent.png" alt="no load" />
         <img style={{width:'50px'}} src="https://cricketconnect.ai/images/crests/stlucia.png" alt="no load" />
         <img style={{width:'40px',filter:'grayscale(100%)'}} src="https://cricketconnect.ai/images/crests/tkr.svg" alt="no load" />
-        <img style={{width:'120px'}} src="https://cricketconnect.ai/images/crests/etpl.png" alt="no load" />
+        <img className='img321' style={{width:'130px'}} src="https://cricketconnect.ai/images/crests/etpl.png" alt="no load" />
 
 
 
@@ -74,7 +74,7 @@ across professional teams, leagues and competitions</p>
             For professionals and for fans
           </p>
 
-          <p  className='hsp213' style={{fontSize:'3rem' ,fontWeight:'600'}}>Built for everyone who lives the game</p>
+          <p  className='hsp213' style={{fontSize:'2.5rem' ,fontWeight:'600',fontFamily:'"Plus Jakarta Sans", sans-serif'}}>Built for everyone who lives the game</p>
 
           <p style={{color:'grey'}}>The same analytical core powers both products — <br/>explainable, context-aware, and never built around odds.</p>
           </div>
