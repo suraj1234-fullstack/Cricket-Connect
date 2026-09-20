@@ -13,11 +13,11 @@ const herosection = () => {
         <p style={{fontSize:'0.7rem',color:'grey',fontWeight:'700'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
 
 
-       <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'-apple-system'}}>
+       <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'serif'}}>
         Cricket, <span  style={{fontStyle:'italic',fontFamily:'serif',color:'#1e65cf'}}>understood </span> -
-        </span><span style={{fontFamily:'-apple-system',whiteSpace:"nowrap"}}><br/>from the boundary
+        </span><span style={{fontFamily:'serif',whiteSpace:"nowrap"}}><br/>from the boundary
         <br/> </span>
-        <span style={{fontFamily:'appl',whiteSpace:"nowrap"}}>to the back office.
+        <span style={{fontFamily:'serif',whiteSpace:"nowrap"}}>to the back office.
           </span></p>
 
           
@@ -79,7 +79,7 @@ const herosection = () => {
             For professionals and for fans
           </p>
 
-          <p  className='hsp213' style={{fontSize:'2.5rem' ,fontWeight:'600',fontFamily:'-apple-system'}}>Built for everyone who lives the game</p>
+          <p  className='hsp213' style={{fontSize:'2.5rem' ,fontWeight:'600',fontFamily:'serif'}}>Built for everyone who lives the game</p>
 
           <p style={{color:'grey'}}>The same analytical core powers both products — <br/>explainable, context-aware, and never built around odds.</p>
           </div>
@@ -98,7 +98,7 @@ const herosection = () => {
           <div className="txtbx1" style={{padding:'10% 5%',lineHeight:'2rem',fontWeight:'500'}}>
 
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',padding:'2% 2% 2% 0%'}}>CC AI · for fans</p>
-                 <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'-apple-system'}}>The fan platform</h4>
+                 <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The fan platform</h4>
                  <p style={{padding:'2%',color:'#857d7d'}}> Fans who want more than the scorecard</p>
                   <ul style={{paddingLeft:'5%' ,  color:'#857d7d'}}>The professional engine, made accessible. No jargon, no noise — two ways in.
 
@@ -122,7 +122,7 @@ const herosection = () => {
             <div className="txtbx2" style={{padding:'10% 5%',lineHeight:'2rem',fontWeight:'500'}}>
 
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',color:'#1e65cf',padding:'2% 2% 2% 0%'}}>CC Pro · for professionals</p>
-                 <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'-apple-system'}}>The analytics suite</h4>
+                 <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The analytics suite</h4>
                  <p style={{padding:'2%',color:'#857d7d'}}> Coaches, analysts, franchises & media</p>
                   <ul style={{paddingLeft:'5%' ,color:'#857d7d'}}>
 Three modules across the life of a match. In live use in the Vitality Blast and the Caribbean Premier League, with pilots prepared for the ILT20, Super Smash, Big Bash and SA20.
@@ -161,7 +161,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-reporting.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> Before · Reporting</p>
-                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'-apple-system',padding:'2% 2% 2% 0%'}}> Prepare the plan</p>
+                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'serif',padding:'2% 2% 2% 0%'}}> Prepare the plan</p>
                      <p style={{color:'#2c2a2add'}}> A full opposition report for the fixture — as a deck, a document, or read in the app with a chat that knows the page.</p>
 
               </div>
@@ -174,7 +174,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-analysis.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> During · Analysis</p>
-                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'-apple-system',padding:'2% 2% 2% 0%'}}> Decide in the moment</p>
+                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'serif',padding:'2% 2% 2% 0%'}}> Decide in the moment</p>
                      <p style={{color:'#2c2a2add'}}> Live pressure and matchup state, and a chat that answers against the ball-by-ball stream as it arrives.</p>
 
 
@@ -187,7 +187,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-explorer.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> After · Explorer</p>
-                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'-apple-system',padding:'2% 2% 2% 0%'}}> Go back to the ball</p>
+                     <p  style={{fontSize:'1.5rem',fontWeight:'400',fontFamily:'serif',padding:'2% 2% 2% 0%'}}> Go back to the ball</p>
                      <p style={{color:'#2c2a2add'}}> Every tracked delivery, filtered the way an analyst thinks, replayed in 3D and charted</p>
 
               </div>
@@ -214,7 +214,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
                 
                 <div className='d321' style={{  display:'flex', flexWrap:'wrap',padding:'4%'}}>
                   <p> <h5 style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}>The intelligence</h5>
-                 <h5  style={{fontSize:'2.6rem',fontWeight:'600',fontFamily:'-apple-system'}}> What sits under every answer</h5>
+                 <h5  style={{fontSize:'2.6rem',fontWeight:'600',fontFamily:'serif'}}> What sits under every answer</h5>
                   <h5 style={{color:'#6b6565dd', fontSize:'1.2rem',fontWeight:'450',paddingTop:"5%"}}>Whether you are a fan or a first-team analyst, the answers come from the same core.</h5></p>
                 </div>
               
