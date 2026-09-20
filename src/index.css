@@ -158,10 +158,13 @@ color: white;
   }
 
 }
+.headings1 .p9871{
+    font-size: 3rem;
+  }
 
 @media (max-width:500px) {
 
-  
+ 
   .heros1{
     height: 70vh;
   }
@@ -177,12 +180,15 @@ color: white;
   
  
 }
+
 .whatsits{
   justify-content: space-around;
   
 }
 
 @media (max-width:993px) {
+
+  
     .pfont124{
       font-size: 10vw !important;
 
@@ -210,8 +216,9 @@ color: white;
     min-height: 110rem;
    }
   .whatsits{
+    display: none;
     flex-direction: column;
-    min-height: 1500px;
+    min-height: 1200px;
   }
   .footersection{
     min-height: 400px;

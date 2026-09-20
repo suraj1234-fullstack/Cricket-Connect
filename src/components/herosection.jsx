@@ -126,9 +126,9 @@ const herosection = () => {
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',padding:'2% 2% 2% 0%'}}>CC AI · for fans</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The fan platform</h4>
                  <p style={{padding:'2%  ',color:'#857d7d' }}> Fans who want more than the scorecard</p>
-                  <ul style={{paddingLeft:'5%' ,  color:'#857d7d'}}>The professional engine, made accessible. No jargon, no noise — two ways in  in the Vitality Blast and the Caribbean Premier League, with pilots prepared.
+                  <ul style={{padding:'5% ' ,  color:'#857d7d'}}>The professional engine, made accessible. No jargon, no noise — two ways in  in the Vitality Blast and the Caribbean Premier League, with pilots prepared.
 
-                  <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Match Companion —</span> what is happening, why, and what comes next</li>
+                  <li style={{color:'#3f3c3c' , paddingTop:'6%'}}> <span style={{fontWeight:'600',color:'black'}}>Match Companion —</span> what is happening, why, and what comes next</li>
                  <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Cricket Minds —</span> call the game and build a Cricket IQ · Q4 2026
                  </li>
                   
@@ -136,7 +136,7 @@ const herosection = () => {
                   Win probability, partnership intelligence, tactical context</li>
                   </ul>
 
-                  <button style={{marginTop:'10%',fontSize:'1.2rem', fontWeight:'500', border:'none',backgroundColor:'white'}}>Try CC Ai free  →</button>
+                  <button style={{marginTop:'6%',fontSize:'0.8rem', fontWeight:'500', border:'none',backgroundColor:'white'}}>Try CC Ai free  →</button>
 
           </div>
 
@@ -150,16 +150,16 @@ const herosection = () => {
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',color:'#1e65cf',padding:'2% 2% 2% 0%'}}>CC Pro · for professionals</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The analytics suite</h4>
                  <p style={{padding:'2%',color:'#857d7d'}}> Coaches, analysts, franchises & media</p>
-                  <ul style={{paddingLeft:'5%' ,color:'#857d7d'}}>
+                  <ul style={{padding:'5%' ,color:'#857d7d'}}>
 Three modules across the life of a match. In live use in the Vitality Blast and the Caribbean Premier League, with pilots prepared for the ILT20, Super Smash, Big Bash and SA20.
 
-                  <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Reporting —</span> opposition and match reports before the game</li>
+                  <li style={{color:'#3f3c3c' ,paddingTop:'2%'}}> <span style={{fontWeight:'600',color:'black'}}>Reporting —</span> opposition and match reports before the game</li>
                  <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Analysis — </span> the live analyst dashboard during it</li>
                   <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Explorer —  </span> every tracked delivery afterwards, in 3D and charted</li>
 
                   </ul>
 
-                  <button style={{marginTop:'9%',fontSize:'1.2rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
+                  <button style={{marginTop:'12%',fontSize:'0.8rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
 
           </div>
 
@@ -172,10 +172,11 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 
    <div className="insidesectio" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', backgroundColor:'black',height:'900px', color:'white'}}>
 
-    <div className='headings1' style={{textAlign:"center", padding:'5% 5% 3% 5%'}}>
+    <div className='headings1' style={{textAlign:"center", padding:'5% 3% 3% 3%'}}>
                <p style={{textTransform:'uppercase', color:'#1e65cf',fontWeight:'600'}}> Inside CC Pro</p>
-               <p style={{fontSize:'3rem', fontWeight:'500' }}>One match, three moments</p>
-                <p style={{fontSize:'1.2rem', marginTop:'5%',color:'#ccc5c5',fontWeight:'500'}}>The professional side of Cricket Connect follows the shape of <br/>a game: prepare for it, decide inside it, take it apart afterwards.</p>
+               <p className='p9871' style={{ fontWeight:'500' }}>One match, three moments</p>
+                
+                <p style={{fontSize:'1.2rem', marginTop:'5%',color:'#ccc5c5',fontWeight:'500'}}>The professional side of Cricket Connect follows the shape of a game prepare for <p> it, decide inside it, take it apart afterwards.</p></p>
           </div>
 
 
@@ -293,8 +294,9 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
               <div className="footersection" style={{height:'300px', backgroundColor:'black',color:'white',padding:'4% 5% ', display:'flex',justifyContent:'space-between' , flexWrap:'wrap'}}>
 
                 <div style={{padding:'5%', backgroundColor:'black'}}> 
-                  <p style={{margin:'10px 10px 10px 0px'}}> <img  style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
-            &nbsp;<span>CricketConnect</span></p>
+                  <p style={{margin:'10px 10px 10px 0px'}}> 
+                    <img  style={{width:'30px',filter: 'brightness(0) invert(1)' }} src="https://cricketconnect.ai/logo.png" alt="" />
+            &nbsp; <span style={{fontSize:'25px',fontWeight:'700',color:'white'}}>Cricket </span> <span style={{fontSize:'25px',fontWeight:'700',color:'grey'}}>Connect</span></p>
                   <p style={{color:'#ccc0c0'}}>AI-native cricket intelligence for fans, teams, and <br/>the business of the game.</p>
 
                 </div>
@@ -305,7 +307,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
                   <div style={{display:'flex', justifyContent:'space-around',gap:'70px',padding:'5%', lineHeight:'40px',height:""}}>
                     <div>
                       <p style={{color:'#8b8181',fontWeight:'600'}}>Product</p>
-                      <p>How it works</p>
+                      <p style={{whiteSpace:'nowrap'}}>Works</p>
                       <p>About</p>
                       <p>FAQ</p>
                     </div>
