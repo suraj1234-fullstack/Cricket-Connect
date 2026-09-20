@@ -121,12 +121,12 @@ const herosection = () => {
         }}>
 
  
-          <div className="txtbx1" style={{padding:'10% 5%',lineHeight:'2rem',fontWeight:'500'}}>
+          <div className="txtbx1" style={{padding:'10% 5%',fontWeight:'500'}}>
 
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',padding:'2% 2% 2% 0%'}}>CC AI · for fans</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The fan platform</h4>
-                 <p style={{padding:'2%',color:'#857d7d'}}> Fans who want more than the scorecard</p>
-                  <ul style={{paddingLeft:'5%' ,  color:'#857d7d'}}>The professional engine, made accessible. No jargon, no noise — two ways in.
+                 <p style={{padding:'2%  ',color:'#857d7d' }}> Fans who want more than the scorecard</p>
+                  <ul style={{paddingLeft:'5%' ,  color:'#857d7d'}}>The professional engine, made accessible. No jargon, no noise — two ways in  in the Vitality Blast and the Caribbean Premier League, with pilots prepared.
 
                   <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Match Companion —</span> what is happening, why, and what comes next</li>
                  <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Cricket Minds —</span> call the game and build a Cricket IQ · Q4 2026
@@ -145,7 +145,7 @@ const herosection = () => {
           border:'3px solid rgba(7, 3, 3, 0.07)',borderLeft:'8px solid #1e65cf'}}>
 
 
-            <div className="txtbx2" style={{padding:'10% 5%',lineHeight:'2rem',fontWeight:'500'}}>
+            <div className="txtbx2" style={{padding:'10% 5%',fontWeight:'500'}}>
 
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',color:'#1e65cf',padding:'2% 2% 2% 0%'}}>CC Pro · for professionals</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The analytics suite</h4>
@@ -159,7 +159,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 
                   </ul>
 
-                  <button style={{marginTop:'7%',fontSize:'1.2rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
+                  <button style={{marginTop:'9%',fontSize:'1.2rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
 
           </div>
 
@@ -183,7 +183,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 }}>
 
 
-            <div className="card1" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'20px'}}>
+            <div className="card1" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-reporting.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> Before · Reporting</p>
@@ -196,7 +196,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 
 
 
-            <div className="card2" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'20px'}}>
+            <div className="card2" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-analysis.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> During · Analysis</p>
@@ -209,7 +209,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 
 
             </div>
-            <div className="card3" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'20px'}}>
+            <div className="card3" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-explorer.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> After · Explorer</p>
