@@ -45,7 +45,7 @@ const herosection = () => {
 
 
 
-      <div className="logoec12" style={{display:'flex',alignItems:'center',justifyContent:'space-between',minHeight:'4rem',flexWrap:'wrap',padding:'30px 40px', backgroundColor:"#f3ebebd5",boxSizing:'border-box'}}>
+      <div className="logoec12" style={{display:'flex',alignItems:'center',justifyContent:'space-between',minHeight:'4rem',flexWrap:'wrap',padding:'30px 30px', backgroundColor:"#f5f2f2",boxSizing:'border-box'}}>
       
       
       <div  className='logoec123' style={{ flex:'1.5', minWidth:'250px',maxWidth:'350px',lineHeight:'1.2'} }>
@@ -54,17 +54,43 @@ const herosection = () => {
         <span className='pg123e' style={{color:"#696262"}}>across professional teams, <br/>leagues and competitions</span></p>
       </div>
 
-      <div className="logodiv11" style={{display:'flex',alignItems:'center',gap:'2%',flexWrap:"wrap",flex:'2',boxSizing:'border-box'}}>
+      {/*<div className="logodiv11" style={{display:'grid',alignItems:'center',gap:'2%',flexWrap:"wrap",flex:'2',boxSizing:'border-box'}}>*/}
 
+      <div className="logodiv11" style={{display:'flex',flexDirection:'row',
+        alignItems:'center',gap:'25px',flex:'2',boxSizing:'border-box',width:'400px',flexWrap:'wrap'
+      }}>
 
-        <img style={{width:'44px'}} src="https://cricketconnect.ai/images/crests/sussex.png" alt="no load" />
-        <img className='io' style={{width:'100px',padding:'2%',height:'30px'}} src="https://cricketconnect.ai/images/crests/durham.png" alt="no load" />
-        <img  style={{width:'50px'}} src="https://cricketconnect.ai/images/crests/kent.png" alt="no load" />
-        <img style={{width:'50px'}} src="https://cricketconnect.ai/images/crests/stlucia.png" alt="no load" />
-        <img style={{width:'40px',filter:'grayscale(100%)'}} src="https://cricketconnect.ai/images/crests/tkr.svg" alt="no load" />
-        <img className='img321' style={{width:'100px',padding:'2%',height:'30px'}} src="https://cricketconnect.ai/images/crests/etpl.png" alt="no load" />
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',maxWidth:'80px', backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain'}} src="https://cricketconnect.ai/images/crests/sussex.png" alt="no load" />
+        </div>
 
-
+         <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',minWidth:'80px',backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain'}} src="https://cricketconnect.ai/images/crests/durham.png" alt="no load" />
+        </div>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',minWidth:'80px',backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain'}} src="https://cricketconnect.ai/images/crests/kent.png" alt="no load" />
+        </div>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',minWidth:'80px',backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain'}} src="https://cricketconnect.ai/images/crests/stlucia.png" alt="no load" />
+        </div>
+         <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',minWidth:'80px',backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain',filter:'grayscale(100%)'}} src="https://cricketconnect.ai/images/crests/tkr.svg" alt="no load" />
+        </div>
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
+            flex:'1',minWidth:'80px',backgroundColor:'white',padding:'1%',borderRadius:'8px',minWidth:'50px',border:'2px solid #ebe2e2'
+          }}>
+        <img style={{width:'100%' ,maxHeight:'100%',objectFit:'contain'}} src="https://cricketconnect.ai/images/crests/etpl.png" alt="no load" />
+        </div>
 
       </div>
     </div>

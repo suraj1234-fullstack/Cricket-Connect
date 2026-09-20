@@ -16,9 +16,9 @@ const navbar = () => {
    <div className="navbar" style={{backgroundColor:'white' , width:'100%',height:'4rem',display: 'flex', justifyContent:'space-between',alignItems:'center',position:'fixed',zIndex:'1000',top:'0px'}}>
         
         
-        <div  style={{display:'flex', justifyContent:'flex-start', alignItems:'center', gap:'25px', fontSize:'15px',fontWeight:'500',paddingLeft:'10%'
+        <div  className='logoparent' style={{display:'flex', justifyContent:'flex-start', alignItems:'center', gap:'25px', fontSize:'15px',fontWeight:'500',padding:'10%'
         }}>
-        <div className="logo"style={{display:'flex', justifyContent:'center', alignItems:'center',textAlign:'center',gap:'1%px' }}>
+        <div className="logo"style={{display:'flex', justifyContent:'center', alignItems:'center',textAlign:'center',gap:'1%' }}>
             <img  style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
             &nbsp;
            {/*<i  style ={{fontSize:'1.7rem'}}class="fa-solid fa-volleyball"></i>*/}
