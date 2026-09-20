@@ -10,11 +10,11 @@ const herosection = () => {
 
     <div className="txtbox12"style={{fontFamily:'serif',marginTop:'3%',marginLeft:'30px'}}>
       
-        <p style={{fontSize:'0.9rem',color:'grey'}}><i  style={{color:"#135ac5",fontSize:'0.5rem',textAlign:'center',  boxShadow:' 0 0 0 4px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
+        <p style={{fontSize:'0.7rem',color:'grey',fontWeight:'700'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
 
 
        <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'-apple-system'}}>
-        Cricket, <span  style={{fontStyle:'italic',fontFamily:'serif',color:'#1e65cf'}}>understood </span>—
+        Cricket, <span  style={{fontStyle:'italic',fontFamily:'serif',color:'#1e65cf'}}>understood </span> -
         </span><span style={{fontFamily:'-apple-system',whiteSpace:"nowrap"}}><br/>from the boundary
         <br/> </span>
         <span style={{fontFamily:'appl',whiteSpace:"nowrap"}}>to the back office.
@@ -26,7 +26,8 @@ const herosection = () => {
        <div className='ok' >
        <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 19px'}}>Explore CC  pro → </a>
 
-       <a style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'10px'}}>Try CC AI free</a>
+       <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'10px'}}>Try CC AI free</a>
+      
        </div>
     </div>
 
@@ -53,7 +54,7 @@ const herosection = () => {
         <span className='pg123e' style={{color:"#696262"}}>across professional teams, <br/>leagues and competitions</span></p>
       </div>
 
-      <div className="logodiv11" style={{display:'flex',alignItems:'center',gap:'2%',flexWrap:"wrap",flex:'2'}}>
+      <div className="logodiv11" style={{display:'flex',alignItems:'center',gap:'2%',flexWrap:"wrap",flex:'2',boxSizing:'border-box'}}>
 
 
         <img style={{width:'44px'}} src="https://cricketconnect.ai/images/crests/sussex.png" alt="no load" />
@@ -265,8 +266,8 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
 
               <div className="footersection" style={{height:'300px', backgroundColor:'black',color:'white',padding:'4% 5% ', display:'flex',justifyContent:'space-between' , flexWrap:'wrap'}}>
 
-                <div className='' style={{padding:'5%', backgroundColor:'black'}}> 
-                  <p style={{margin:'10px 10px 10px 0px'}}> <img className='imgblack' style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
+                <div style={{padding:'5%', backgroundColor:'black'}}> 
+                  <p style={{margin:'10px 10px 10px 0px'}}> <img  style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
             &nbsp;<span>CricketConnect</span></p>
                   <p style={{color:'#ccc0c0'}}>AI-native cricket intelligence for fans, teams, and <br/>the business of the game.</p>
 

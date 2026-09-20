@@ -96,9 +96,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 
 @media (max-width:750px) {
-  .txtbox12 .ok{
-      padding-top: 13%;
-    }
+ 
 }
 
 @media(max-width:994px){
@@ -140,9 +138,21 @@ color: white;
   }
 
 }
+@media (max-width:480px) {
+  .ok .atag1,.ok .atag2{
+      display: block;
+      justify-content: center;
+      text-align: center;
+      margin:  5% 7% 5% 1%;
+  }
+
+}
+
 @media (max-width:500px) {
+
+  
   .heros1{
-    height: 60vh;
+    height: 65vh;
   }
   .txtbox12{
     margin-left: 2px !important;
@@ -174,10 +184,12 @@ color: white;
       font-size: 10vw !important;
 
     }
+  
+  
     .txtbox12 .hpp123{
-      font-size: 4vw !important;
-      width: 90% !important;
-      padding:  5% !important; 
+      font-size: 4.5vw !important;
+      width: 100% !important;
+      
       
     }
    
