@@ -3,7 +3,7 @@ import React, { useCallback, useState } from 'react'
 const navbar = () => {
 
     const [num, setnum] = useState(false)
-   
+    
    
    
    
@@ -47,8 +47,9 @@ const navbar = () => {
         </div>
 
 
-     <div className="media3dot" style={{position:'absolute',fontSize:'1.7rem',right:'0%'}}>
-            <i style={{cursor:'pointer',marginRight:'10px'}}onClick={usehandle} class="fa-solid fa-bars"></i>
+     <div className="media3dot" style={{position:'absolute',fontSize:'1.2rem',right:'0%',paddingRight:'15px'}}>
+            <i style={{cursor:'pointer',marginRight:'10px'}}onClick={usehandle} className={`fa-solid ${num ? 'fa-xmark' : 'fa-bars'}`}></i>
+            
         </div>
 
    </div>

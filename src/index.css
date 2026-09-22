@@ -69,7 +69,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   right: 0.1%;
   top: 100%;
   background: rgb(255, 254, 254);
-  line-height: 50px;
+  line-height: 44px;
   background-color: rgb(255, 255, 255);
   width: 100%;
   z-index: 9999;
@@ -78,15 +78,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .mobilemenubar a{
   display: flex;
   width: 100%;
-  justify-content: center;
-  border: 2px solid rgb(247, 237, 237);
+ padding-left: 20%;
+ cursor: pointer;
+  
 }
-.mobilemenubar a:hover{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  border: 2px solid rgb(112, 107, 107);
-}
+
 
 
 .hs1{
