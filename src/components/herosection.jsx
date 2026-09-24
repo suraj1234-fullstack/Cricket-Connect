@@ -14,7 +14,7 @@ const herosection = () => {
 
 
        <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'serif'}}>
-        Cricket, <span  style={{fontStyle:'italic',fontFamily:'serif',color:'#1e65cf'}}>understood </span> -
+        Cricket, <span  style={{fontStyle:'italic',fontFamily:'serif',color:'#1e65cf'}}>understood </span> 
         </span><span style={{fontFamily:'serif',whiteSpace:"nowrap"}}><br/>from the boundary
         <br/> </span>
         <span style={{fontFamily:'serif',whiteSpace:"nowrap"}}>to the back office.
