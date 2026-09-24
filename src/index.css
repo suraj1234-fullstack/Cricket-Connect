@@ -144,7 +144,7 @@ overflow: hidden;
 
 .txtbox12{
   width: 100%;
-  margin: 5%;
+  margin: 2%;
 position: absolute;
 z-index: 3;
 box-sizing: border-box;
@@ -161,7 +161,7 @@ color: white;
 
 @media (max-width:450px) {
   .hs1 .hs21{
-    max-height: 600px;
+    max-height: 500px;
 
   }
 
@@ -207,7 +207,7 @@ color: white;
 
   
     .pfont124{
-      font-size: 10vw !important;
+      font-size: 9vw !important;
 
     }
     .logodiv11{
@@ -218,6 +218,7 @@ color: white;
     .txtbox12 .hpp123{
       font-size: 4.5vw !important;
       width: 100% !important;
+      padding: 5% !important;
       
       
     }
