@@ -187,6 +187,8 @@ color: white;
   }
   .txtbox12{
     margin-left: 2px !important;
+    
+    text-align: left;
   }
   
   
@@ -207,7 +209,7 @@ color: white;
 
   
     .pfont124{
-      font-size: 10vw !important;
+      font-size: 9vw !important;
      
 
     }
