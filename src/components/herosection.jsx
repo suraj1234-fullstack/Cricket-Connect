@@ -24,9 +24,9 @@ const herosection = () => {
        <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:'4% 0%',color:'#d4d0d0'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
        
        <div className='ok' >
-       <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 19px'}}>Explore CC  pro → </a>
+       <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 19px',margin:'4%'}}>Explore CC  pro → </a>
 
-       <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'10px'}}>Try CC AI free</a>
+       <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'10px',margin:'4%'}}>Try CC AI free</a>
       
        </div>
     </div>
