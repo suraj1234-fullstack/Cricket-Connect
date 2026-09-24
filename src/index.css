@@ -5,13 +5,16 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   margin: 0;
   padding: 0;
 }
+
 .navbar .component2 .button1 button{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
 .allmenubar{
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  line-height: 50px;
 }
 .mobilemenubar{
   display: none;
@@ -41,7 +44,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 
-@media(min-width:994px){
+@media(min-width:1194px){
 
  
 
@@ -56,7 +59,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-@media(max-width:994px){
+@media(max-width:1194px){
 .allmenubar {
   display: none;
 
@@ -101,6 +104,27 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
  cursor: pointer;
   
 }
+
+.button1{
+  margin-left: 18vw;
+}
+
+
+
+
+.mobilemenubar .button1{
+   
+ margin: 5% !important;
+ 
+}
+.mobilemenubar .button1 button {
+  
+ width: 100%;
+ padding: 5% 40px !important;
+  
+}
+
+
 
 
 
@@ -161,7 +185,7 @@ color: white;
 
 @media (max-width:450px) {
   .hs1 .hs21{
-    max-height: 500px;
+    max-height: 600px;
 
   }
 
