@@ -4,13 +4,13 @@ const herosection = () => {
   return (
 
     <>
-    <div className='heros1' style={{marginTop:'10px',width:'100%'}}>
+    <div className='heros1' style={{marginTop:'10px'}}>
 
    
 
-    <div className="txtbox12"style={{fontFamily:'serif',marginTop:'3%',marginLeft:'30px',padding:'5%'}}>
+    <div className="txtbox12"style={{fontFamily:'serif',marginTop:'3%'}}>
       
-        <p style={{fontSize:'0.7rem',color:'grey',fontWeight:'700'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
+        <p style={{fontSize:'0.7rem',color:'grey',fontWeight:'700'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE.</p>
 
 
        <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'serif'}}>
@@ -21,12 +21,12 @@ const herosection = () => {
           </span></p>
 
           
-       <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:'4% 0%',color:'#d4d0d0'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
+       <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:'2% 0%',color:'#d4d0d0'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
        
        <div className='ok' >
        <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 19px'}}>Explore CC  pro → </a>
 
-       <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black'}}>Try CC AI free</a>
+       <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'2%'}}>Try CC AI free</a>
       
        </div>
     </div>
