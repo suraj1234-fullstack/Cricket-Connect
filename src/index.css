@@ -21,6 +21,23 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   justify-content: flex-end;
 }
 
+.logodiv11{
+    flex: 2;
+    width: 400px;
+    gap: 25px;
+    
+  }
+
+/*new update section */
+@media (min-width:398px) and (max-width:588px) {
+  .logodiv11{
+    flex:none ;
+    width: fit-content;
+    gap: 3rem;
+    
+  }
+}
+
 
 @media(min-width:994px){
 

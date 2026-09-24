@@ -57,7 +57,7 @@ const herosection = () => {
       {/*<div className="logodiv11" style={{display:'grid',alignItems:'center',gap:'2%',flexWrap:"wrap",flex:'2',boxSizing:'border-box'}}>*/}
 
       <div className="logodiv11" style={{display:'flex',flexDirection:'row',
-        alignItems:'center',gap:'25px',flex:'2',boxSizing:'border-box',width:'400px',flexWrap:'wrap'
+        alignItems:'center',boxSizing:'border-box',flexWrap:'wrap'
       }}>
 
           <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'50px',
