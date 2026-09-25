@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const navbar = () => {
 
@@ -28,17 +29,21 @@ const navbar = () => {
         <div  className={num ? 'mobilemenubar' : 'allmenubar' } >
            
                
-            <a  style={{color:'#353638'}} >About</a>
-            <a style={{color:'#353638' ,whiteSpace:'nowrap'}}> How it work</a>
-            <a style={{color:'#353638'}}>Team</a>
-             <a style={{color:'#353638'}}>News</a>
-            <a style={{color:'#353638'}}>FAQ</a>
-             <a  style={{color:'#353638'}}>Contact</a>
+            <Link to='/aboutpage' className='aboutlink'
+            onClick={usehandle}>
+            <a  className='a1' style={{color:'#353638'}} >About</a>
+            </Link>
+
+            <a className='a1' style={{color:'#353638' ,whiteSpace:'nowrap'}}> How it work</a>
+            <a  className='a1' style={{color:'#353638'}}>Team</a>
+             <a  className='a1'style={{color:'#353638'}}>News</a>
+            <a className='a1'style={{color:'#353638'}}>FAQ</a>
+             <a  className='a1'style={{color:'#353638'}}>Contact</a>
              
              
              <div className='button1' >
                 
-                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'none', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'inherit'}} href='https://cricket-connect.us.auth0.com/u/login?state=hKFo2SB4SUR1VmhjZ0FlalVHdXJ1QWs3dEpwS0htNkhGVUE0bqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFAwVjhWVG5LeEJEc3pnUzh0Y0xob0NMTXJTUWkxbnFJo2NpZNkgc0FoelFIRTVLOG1BSDBBeVFQM3Q5am9mSkVzVDN1eW8'>Sign in </a></button>
+                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'none', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'inherit'}} >Sign in </a></button>
                 <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px'}}>Book a demo</button>
             
             </div>
