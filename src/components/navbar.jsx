@@ -43,7 +43,7 @@ const navbar = () => {
              
              <div className='button1' >
                 
-                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'none', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'inherit'}} >Sign in </a></button>
+                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'white', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'inherit'}} >Sign in </a></button>
                 <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px'}}>Book a demo</button>
             
             </div>
