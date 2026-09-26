@@ -9,8 +9,9 @@ const navbar = () => {
    
    
     const usehandle =()=>{
+        if(window.innerWidth <= 1194){
         setnum(!num)
-    }
+    }}
 
   return (
    
@@ -19,31 +20,55 @@ const navbar = () => {
         
         <div  className='logoparent' style={{display:'flex', justifyContent:'flex-start', alignItems:'center', gap:'1vw', fontSize:'15px',fontWeight:'500',padding:'10%',minWidth:'100%'
         }}>
+
         <div className="logo"style={{display:'flex', justifyContent:'center', alignItems:'center',textAlign:'center',gap:'3%' }}>
             <img  style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
             &nbsp;
            {/*<i  style ={{fontSize:'1.7rem'}}class="fa-solid fa-volleyball"></i>*/}
-           <h1 style={{fontSize:'1.6rem',whiteSpace:'nowrap' }}>Cricket <span style={{color:'grey'}}>Connect</span></h1>
+           <Link to= '/'
+           style={{textDecoration:'none',color:'inherit'}}>
+           <h1 style={{fontSize:'1.6rem',whiteSpace:'nowrap' }}>Cricket <span style={{color:'grey'}}>Connect</span></h1></Link>
         </div>&nbsp;&nbsp;
            
         <div  className={num ? 'mobilemenubar' : 'allmenubar' } >
            
                
             <Link to='/aboutpage' className='aboutlink'
+            style={{textDecoration:'none'}}
             onClick={usehandle}>
             <a  className='a1' style={{color:'#353638'}} >About</a>
             </Link>
 
-            <a className='a1' style={{color:'#353638' ,whiteSpace:'nowrap'}}> How it work</a>
-            <a  className='a1' style={{color:'#353638'}}>Team</a>
-             <a  className='a1'style={{color:'#353638'}}>News</a>
-            <a className='a1'style={{color:'#353638'}}>FAQ</a>
-             <a  className='a1'style={{color:'#353638'}}>Contact</a>
+            <Link to='/Howitwork' className='aboutlink'
+            style={{textDecoration:'none'}}
+                 onClick={usehandle}>
+            <a className='a1' style={{color:'#353638' ,whiteSpace:'nowrap'}}> How it work</a></Link>
+
+
+            <Link to='/team' className='aboutlink'
+            style={{textDecoration:'none'}}
+                 onClick={usehandle}>
+            <a  className='a1' style={{color:'#353638'}}>Team</a></Link>
+
+            <Link to='/news' className='aboutlink'
+            style={{textDecoration:'none'}}
+                 onClick={usehandle}>
+             <a  className='a1'style={{color:'#353638'}}>News</a></Link>
+
+             <Link to='/faq' className='aboutlink'
+            style={{textDecoration:'none'}}
+                 onClick={usehandle}>
+            <a className='a1'style={{color:'#353638'}}>FAQ</a></Link>
+
+            <Link to='/contact' className='aboutlink'
+            style={{textDecoration:'none'}}
+                 onClick={usehandle}>
+             <a  className='a1'style={{color:'#353638'}}>Contact</a></Link>
              
              
              <div className='button1' >
                 
-                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'white', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'inherit'}} >Sign in </a></button>
+                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'white', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'grey'}} >Sign in </a></button>
                 <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px'}}>Book a demo</button>
             
             </div>
