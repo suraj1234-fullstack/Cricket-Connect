@@ -143,11 +143,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   
 }
 .mobilemenubar .button1{
-  border-top: 2px solid rgb(223, 219, 219);
+  border-top: 2px solid rgb(238, 232, 232);
  
 }
 .mobilemenubar{
-  border-bottom: 2px solid rgb(226, 220, 220);
+  border-bottom: 2px solid rgb(238, 232, 232);
 }
 
 
