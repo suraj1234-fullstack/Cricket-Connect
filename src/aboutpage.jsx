@@ -33,16 +33,16 @@ const aboutpage = () => {
 
 
 
-    <div className='abts21' style={{alignItems:'center',justifyContent:'center',margin :' 0% 3% 0% 3%',width:'100%'}}>
+    <div className='abts21' style={{alignItems:'center',justifyContent:'center',margin :' 0% 3% 0% 3%',width:'100%',gap:'5px'}}>
       
 
         
-      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
         <p style={{color:"#135ac5",fontWeight:'500'}}>OUR MISSION</p>
 We believe cricket deserves deeper insight than headlines, gut feel, or opaque statistics. Cricket Connect connects data, context, and strategy — and turns it into intelligence that coaches, analysts, and franchises can act on. Built professional-first, the same engine now also reaches fans — through a companion that explains the game and a product that tests how well they read it. Our platform is already in active use across professional teams, leagues, and competitions.
 
       </div>
-       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding: '6.6% 5%',borderRadius:'7px'}}>
+       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding: '6.6% 5%',borderRadius:'7px'}}>
         <p style={{color:"#135ac5",fontWeight:'500'}}>BUILD PROFESSIONAL           FIRST</p>
 
 Cricket Connect began with the hardest problem: decision-grade analysis for the people inside the game. That professional core — CC Pro — now runs live in the Vitality Blast and the Caribbean Premier League, across three modules: preparation, live decisions, and post-match review. CC AI extends the same intelligence to fans. One engine, two products, a single standard of rigour.
