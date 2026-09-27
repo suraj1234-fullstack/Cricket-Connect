@@ -11,7 +11,12 @@ const navbar = () => {
     const usehandle =()=>{
         if(window.innerWidth <= 1194){
         setnum(!num)
-    }}
+    }
+
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
 
   return (
    

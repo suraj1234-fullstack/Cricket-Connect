@@ -697,7 +697,42 @@ You can contact the team via the Contact page to report issues, share feedback, 
       </div>
 
       
+<motion.div 
 
+className='abts211' style={{border:'1px solid #d8d8d8',borderRadius:'30px',marginTop:'5%',backgroundColor:'#f1f1f1',width:"100%"}}>
+    
+
+        
+      <div  className='divflex' style={{fontSize:'1rem',fontWeight:'400',color:'#2e2d2d',padding:'2%'}}>
+       
+        <div className='div542'  style={{margin:'2% '}}>        <p className='p5212'style={{textTransform:"uppercase",fontSize:'0.9rem',fontWeight:'500',color:"#135ac5"
+        ,padding:'3% 0%'}}>Still have questions?</p>
+
+
+        <h5  style={{fontSize:'1.6rem',fontWeight:'520',fontFamily:'serif'}}>Can't find what you're looking for?</h5>
+        <p style={{fontWeight:'400',color:'#646464'}}>
+
+
+Contact us and we'll be happy to help.</p><br/></div>
+
+          <motion.div
+          whileHover={{
+  y:-3,
+  border:'1px solid #a8a8a8',
+  boxShadow:'0px 10px 25px rgba(0,0,0,0.3)',
+ 
+}}
+transition={{
+  type:'spring',
+  stiffness:300,
+  damping:20
+}}>
+        <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></motion.div>
+
+      </div>
+
+
+      </motion.div>
      
 
      
@@ -709,8 +744,7 @@ You can contact the team via the Contact page to report issues, share feedback, 
     </div>
 
     
-    
-
+ 
 
 
 
