@@ -33,8 +33,8 @@ const aboutpage = () => {
 
 
 
-    <div className='abts21' style={{alignItems:'center',justifyContent:'center',margin :' 0% 1% 0% 1%',width:'100%',gap:'15px',border:'1px solid #f3ecec',borderRadius:'20px',margin:'3%'}}>
-      
+    <div className='abts21' style={{alignItems:'center',justifyContent:'center',margin :' 0% 1% 0% 1%',width:'95%',gap:'15px',border:'1px solid #f3ecec',borderRadius:'20px'}}>
+    
 
         
       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',padding:'5%'}}>
