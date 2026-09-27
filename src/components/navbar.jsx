@@ -83,7 +83,7 @@ const navbar = () => {
         
 
 
-     <div className="media3dot" style={{position:'absolute',fontSize:'1.2rem',right:'0%',paddingRight:'15px'}}>
+     <div className="media3dot" style={{position:'absolute',fontSize:'1.5rem',right:'0%',paddingRight:'15px'}}>
             <i style={{cursor:'pointer',marginRight:'10px'}}onClick={usehandle} className={`fa-solid ${num ? 'fa-xmark' : 'fa-bars'}`}></i>
             
         </div>

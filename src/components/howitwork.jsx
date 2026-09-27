@@ -2,7 +2,7 @@ import React from 'react'
 
 const howitwork = () => {
   return (
-    <> <div className='heros112' style={{marginTop:'10px'}}>
+    <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}> <div className='heros112' style={{marginTop:'10px'}}>
 
    
 
@@ -30,8 +30,8 @@ The professional platform is built in three modules, and they map onto the shape
 
     <div style={{padding:'2%',margin:'2%'}}>
 
-      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding: '10%',borderRadius:'7px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>BEFORE THE MATCH REPORTING<hr style={{border:' 1px solid #f3ecec'}}/></p>
+      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'15px'}}>
+        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>BEFORE THE MATCH REPORTING<hr style={{border:' 1.5px solid #d8d8d8'}}/></p>
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Prepare the plan</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
@@ -50,8 +50,8 @@ It runs server-side and comes back three ways: a house-style deck, a Word docume
     </div>
        <div style={{padding:'2%',margin:'2%'}}>
 
-      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding: '10%',borderRadius:'7px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>DURING THE MATCH - ANALYSIS<hr style={{border:' 1px solid #f3ecec1'}}/></p>
+      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'15px'}}>
+        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>DURING THE MATCH - ANALYSIS<hr style={{border:' 1.5px solid #d8d8d8'}}/></p>
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Decide in the moment</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
@@ -75,8 +75,8 @@ The chat answers against the live ball-by-ball stream and the full database in t
     
        <div style={{padding:'2%',margin:'2%'}}>
 
-      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding: '10%',borderRadius:'7px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>AFTER THE MATCH .EXPLORED<hr style={{border:' 1px solid #f3ecec'}}/></p>
+      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'7px'}}>
+        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>AFTER THE MATCH .EXPLORED<hr style={{border:' 1.5px solid #d8d8d8'}}/></p>
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Go back to the ball</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
@@ -104,7 +104,7 @@ Any selection replays in 3D — the ball tracked from the hand, off the pitch, t
       
 
         
-      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+      <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #d8d8d8',padding:'5%',borderRadius:'7px'}}>
         <p style={{color:"#135ac5",fontWeight:'500',textTransform:'uppercase',padding:'4% 0%'}}>One engine underneath</p>
 All three draw on the same core: ball-by-ball events, player and team records, match context and historical performance, read through a cricket lens that accounts for format, phase of play, opposition, venue and game situation.
 <br/><p style={{paddingBottom:"15.5%"}}>
@@ -112,7 +112,7 @@ The same engine reaches fans through CC AI.</p>
 
 
       </div>
-       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #f3ecec',padding: '6.6% 5%',borderRadius:'7px'}}>
+       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'2px solid #d8d8d8',padding: '6.6% 5%',borderRadius:'7px'}}>
         <p style={{color:"#135ac5",fontWeight:'500',textTransform:'uppercase',padding:'4% 0%'}}>A note on insights</p>
 
 Cricket Connect focuses on depth, clarity, and trust. All analytical outputs are grounded in historical data and probabilistic modelling, and are intended to inform understanding and discussion — not to offer guarantees or deterministic predictions.
@@ -133,7 +133,7 @@ Cricket Connect is continuously evolving. We take a depth-first approach — sta
     
     
     
-    </>
+    </div>
   )
 }
 

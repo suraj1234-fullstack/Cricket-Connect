@@ -2,7 +2,7 @@ import React from 'react'
 
 const team = () => {
   return (
-    <>
+    <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
     <div className='heros112' style={{marginTop:'10px'}}>
 
    
@@ -38,7 +38,7 @@ Cricket Connect is built by a team that lives at the intersection of elite crick
       
 
         
-      <div className='team2' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px',display:'flex'}}>
+      <div className='team2' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'7px',display:'flex'}}>
         
         <div className='team1'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/morten-kriek-circle.png" alt="" /></div>
 
@@ -57,7 +57,7 @@ Cricket Connect is built by a team that lives at the intersection of elite crick
 
 
 
-       <div className='team2' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px',display:'flex'}}>
+       <div className='team2' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'7px',display:'flex'}}>
         
         <div className='team1'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/damir-vodenicarevic-circle.jpg" alt="" /></div>
 
@@ -92,13 +92,13 @@ Damir holds a PhD in Artificial Intelligence and is the co-founder of Massa Labs
 
 
     {/*LOCAL CARDS */}
-    <div className='abts212' style={{width:'95%',margin:'5%'}}>
+    <div className='abts212' style={{width:'95%',margin:'5%',gap:'25px'}}>
       
 
         
-      <div className='team22' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+      <div className='team22' style={{fontSize:'1rem',width:'90%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'15px'}}>
         
-        <div className='team12'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/roelof-van-der-merwe-circle.jpg" alt="" /></div>
+        <div className='team12'style={{padding:' 0% 0% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/roelof-van-der-merwe-circle.jpg" alt="" /></div>
 
 
         <div>
@@ -115,9 +115,9 @@ Roelof van der Merwe is a former international cricketer with deep expertise in 
       
       </div>
 
-       <div className='team22' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+       <div className='team22' style={{fontSize:'1rem',width:'90%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'15px'}}>
         
-        <div className='team12'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/samuel-james-everton-circle.png" alt="" /></div>
+        <div className='team12'style={{padding:' 0% 0% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/samuel-james-everton-circle.png" alt="" /></div>
 
 
         <div>
@@ -136,9 +136,9 @@ Sam James-Everton is Head of Performance Analysis at Otago Cricket Association, 
 
 
 
-       <div className='team22' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+       <div className='team22' style={{fontSize:'1rem',width:'90%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'15px'}}>
         
-        <div className='team12'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/roland-lefebvre-circle.jpg" alt="" /></div>
+        <div className='team12'style={{padding:' 0% 0% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/roland-lefebvre-circle.jpg" alt="" /></div>
 
 
         <div>
@@ -157,9 +157,9 @@ Roland Lefebvre is a former Netherlands international cricketer and senior crick
       
       </div>
 
-      <div className='team22' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+      <div className='team22' style={{fontSize:'1rem',width:'90%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'15px'}}>
         
-        <div className='team12'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/tymal-mills-circle.png" alt="" /></div>
+        <div className='team12'style={{padding:' 0% 0% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/tymal-mills-circle.png" alt="" /></div>
 
 
         <div>
@@ -177,9 +177,9 @@ Tymal Mills is an experienced international cricketer and one of the most sought
       
       
       </div>
-      <div className='team22' style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #f3ecec',padding:'5%',borderRadius:'7px'}}>
+      <div className='team22' style={{fontSize:'1rem',width:'90%',fontWeight:'400',color:'#2e2d2d',border:'1px solid #d8d8d8',padding:'5%',borderRadius:'15px'}}>
         
-        <div className='team12'style={{padding:' 0% 6% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/jimmy-adams-circle.jpg" alt="" /></div>
+        <div className='team12'style={{padding:' 0% 0% 0% 0%'}}><img src="https://cricketconnect.ai/images/team/jimmy-adams-circle.jpg" alt="" /></div>
 
 
         <div>
@@ -202,7 +202,7 @@ Jimmy Adams is a former West Indies Test captain and senior cricket leader with 
 
     
 
-    </>
+    </div>
   )
 }
 
