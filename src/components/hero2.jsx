@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const hero2 = () => {
   return (
@@ -26,8 +27,19 @@ const hero2 = () => {
         }}>
 
  
-          <div className="txtbx1" style={{padding:'10% 5%',fontWeight:'500'}}>
-
+         
+          <div 
+          className="txtbx1" style={{padding:'10% 5%',fontWeight:'500',cursor:'pointer'}}>
+                    <motion.div
+                    whileHover={{
+  y:-5,
+  boxShadow:'0px 10px 25px rgba(0,0,0,0.2)'
+}}
+transition={{
+  type:'spring',
+  stiffness:300,
+  damping:20
+}}>
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',padding:'2% 2% 2% 0%'}}>CC AI · for fans</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The fan platform</h4>
                  <p style={{padding:'2%  ',color:'#857d7d' }}> Fans who want more than the scorecard</p>
@@ -42,7 +54,7 @@ const hero2 = () => {
                   </ul>
 
                   <button style={{marginTop:'6%',fontSize:'0.8rem', fontWeight:'500', border:'none',backgroundColor:'white'}}>Try CC Ai free  →</button>
-
+</motion.div>
           </div>
 
         </div>
@@ -50,8 +62,17 @@ const hero2 = () => {
           border:'3px solid rgba(7, 3, 3, 0.07)',borderLeft:'8px solid #1e65cf'}}>
 
 
-            <div className="txtbx2" style={{padding:'10% 5%',fontWeight:'500'}}>
-
+            <div className="txtbx2" style={{padding:'10% 5%',fontWeight:'500',cursor:'pointer'}}>
+<motion.div
+                    whileHover={{
+  y:-5,
+  boxShadow:'0px 10px 25px rgba(0,0,0,0.2)'
+}}
+transition={{
+  type:'spring',
+  stiffness:300,
+  damping:20
+}}>
                   <p style={{fontSize:'0.8rem',fontWeight:'600',textTransform:'uppercase',color:'#1e65cf',padding:'2% 2% 2% 0%'}}>CC Pro · for professionals</p>
                  <h4 style={{fontSize:'2rem',fontWeight:'500',fontFamily:'serif'}}>The analytics suite</h4>
                  <p style={{padding:'2%',color:'#857d7d'}}> Coaches, analysts, franchises & media</p>
@@ -65,7 +86,7 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
                   </ul>
 
                   <button style={{marginTop:'12%',fontSize:'0.8rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
-
+</motion.div>
           </div>
 
         </div>

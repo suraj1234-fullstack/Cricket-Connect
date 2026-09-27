@@ -15,10 +15,10 @@ const navbar = () => {
 
   return (
    
-   <div className="navbar" style={{backgroundColor:'white' , width:'100%',height:'4rem',display: 'flex', justifyContent:'space-between',alignItems:'center',position:'fixed',zIndex:'1000',top:'0px'}}>
+   <div className="navbar" style={{backgroundColor:'#f8f7f7' , width:'100%',height:'4rem',display: 'flex', justifyContent:'space-between',alignItems:'center',position:'fixed',zIndex:'1000',top:'0px',borderBottom:'1px solid #d8d8d8'}}>
         
         
-        <div  className='logoparent' style={{display:'flex', justifyContent:'flex-start', alignItems:'center', gap:'1vw', fontSize:'15px',fontWeight:'500',padding:'10%',minWidth:'100%'
+        <div  className='logoparent' style={{display:'flex', justifyContent:'flex-start', alignItems:'center', gap:'1vw', fontSize:'15px',fontWeight:'500',paddingLeft:'10%',minWidth:'100%'
         }}>
 
         <div className="logo"style={{display:'flex', justifyContent:'center', alignItems:'center',textAlign:'center',gap:'3%' }}>
@@ -68,7 +68,7 @@ const navbar = () => {
              
              <div className='button1' >
                 
-                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'white', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'grey'}} >Sign in </a></button>
+                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'#f8f7f7', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'#525050'}} >Sign in </a></button>
                 <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px'}}>Book a demo</button>
             
             </div>

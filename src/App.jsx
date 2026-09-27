@@ -84,7 +84,7 @@ const App = () => {
         <div>
           <Navbar/>
           <Faq/>
-          <Footerbar/>
+         <Footerbar/>
         </div>
       }/>
 
