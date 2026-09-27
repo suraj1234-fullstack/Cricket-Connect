@@ -18,6 +18,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 .mobilemenubar{
   display: none;
+  padding-top:5%;
 }
 .component2{
   display: flex;
@@ -200,6 +201,12 @@ width: 100%;
 height: 100vh;
 overflow: hidden;
 }
+.heros13{
+  position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
 .heros112{
   position: relative;
 width: 100%;
@@ -259,6 +266,9 @@ color: white;
   .heros1{
     height: 80vh;
   }
+  .heros13{
+    height: 60vh;
+  }
   .heros112{
     height: 60vh;
   }
@@ -295,6 +305,9 @@ color: white;
   
  @media (min-width:501px) and (max-width:1100px) {
   .heros1 {
+    height: auto !important;
+  }
+  .heros13 {
     height: auto !important;
   }
    .heros112 {
@@ -355,6 +368,9 @@ color: white;
     min-height: 400px;
   }
   heros1{
+    margin-top: 60px !important;
+  }
+   heros13{
     margin-top: 60px !important;
   }
   heros112{
