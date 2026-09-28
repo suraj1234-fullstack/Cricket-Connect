@@ -7,7 +7,7 @@ const hero4 = () => {
                 
                 <div className='d321' style={{  display:'flex', flexWrap:'wrap',padding:'4%'}}>
                   <p> <h5 style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}>The intelligence</h5>
-                 <h5  style={{fontSize:'2.6rem',fontWeight:'600',fontFamily:'serif'}}> What sits under every answer</h5>
+                 <h5  style={{fontSize:'2.5rem',fontWeight:'500',fontFamily:'serif'}}> What sits under every answer</h5>
                   <h5 style={{color:'#6b6565dd', fontSize:'1.2rem',fontWeight:'450',paddingTop:"5%"}}>Whether you are a fan or a first-team analyst, the answers come from the same core.</h5></p>
                 </div>
               
