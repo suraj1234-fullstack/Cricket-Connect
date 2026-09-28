@@ -32,7 +32,13 @@ The professional platform is built in three modules, and they map onto the shape
     <div style={{padding:'2%',margin:'2%'}}>
 
       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'15px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>BEFORE THE MATCH REPORTING<hr style={{border:' 1px solid #d8d8d8'}}/></p>
+      
+        <div style={{display:'flex',alignItems:'center',}}>
+        <span style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem',marginRight:'10px'}}>BEFORE THE MATCH REPORTING</span> <hr style={{flex:'1',border:'none',borderTop:'1px solid #d8d8d8',margin:'0' }}/></div>
+
+
+
+
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Prepare the plan</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
@@ -52,7 +58,12 @@ It runs server-side and comes back three ways: a house-style deck, a Word docume
        <div style={{padding:'2%',margin:'2%'}}>
 
       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'15px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>DURING THE MATCH - ANALYSIS<hr style={{border:' 1px solid #d8d8d8'}}/></p>
+        
+        
+<div style={{display:'flex',alignItems:'center',}}>
+        <span style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem',marginRight:'10px'}}>DURING THE MATCH - ANALYSIS</span> <hr style={{flex:'1',border:'none',borderTop:'1px solid #d8d8d8',margin:'0' }}/></div>
+
+
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Decide in the moment</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
@@ -77,7 +88,12 @@ The chat answers against the live ball-by-ball stream and the full database in t
        <div style={{padding:'2%',margin:'2%'}}>
 
       <div style={{fontSize:'1rem',width:'80%',fontWeight:'400',color:'#2e2d2d',border:'1.3px solid #d8d8d8',padding: '10%',borderRadius:'7px'}}>
-        <p style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem'}}>AFTER THE MATCH .EXPLORED<hr style={{border:' 1px solid #d8d8d8'}}/></p>
+
+        
+<div style={{display:'flex',alignItems:'center',}}>
+        <span style={{color:"#135ac5",fontWeight:'500',fontSize:'0.8rem',marginRight:'10px'}}>AFTER THE MATCH .EXPLORED</span> <hr style={{flex:'1',border:'none',borderTop:'1px solid #d8d8d8',margin:'0' }}/></div>
+
+
         <h5  style={{fontSize:'2.2rem',fontWeight:'600',fontFamily:'serif',padding:'2%  0%  4% 0%'}}>Go back to the ball</h5>
 
 <p style={{color:'grey',maxWidth:'800px'}}>
