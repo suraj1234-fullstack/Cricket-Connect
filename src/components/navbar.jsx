@@ -74,7 +74,11 @@ const navbar = () => {
              <div className='button1' >
                 
                 <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'#f8f7f7', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'#525050'}} >Sign in </a></button>
-                <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px'}}>Book a demo</button>
+
+                <Link to='/contact' 
+                                     style={{textDecoration:'none'}}
+                                     onClick={usehandle}>
+                <button style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 15px',cursor:'pointer'}}>Book a demo</button></Link>
             
             </div>
            

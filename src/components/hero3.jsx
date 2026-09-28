@@ -1,6 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const hero3 = () => {
+  const usehandle =()=>{
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
   return (
     <>
     <div className="insidesectio" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', backgroundColor:'black',height:'900px', color:'white'}}>
@@ -60,10 +66,13 @@ const hero3 = () => {
             
        
 </div>
-
-                  <div className="lgs32" style={{color:'#1e65cf' , height:'50px',fontWeight:'700'}}>
+<Link to='/howitwork' 
+                     style={{textDecoration:'none'}}
+                     onClick={usehandle}>
+                  <div className="lgs32" style={{color:'#1e65cf' , height:'50px',fontWeight:'700',cursor:'pointer'}}>
                     <p>See how the three fit together →</p>
                   </div>
+                  </Link>
 
    </div> 
    </>

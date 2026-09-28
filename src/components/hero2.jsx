@@ -1,7 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const hero2 = () => {
+  const usehandle =()=>{
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
   return (
     <>
         <div className="headingsection12" style={{padding:'8% 3%', fontSize:'1.3rem'}}>
@@ -29,10 +35,10 @@ const hero2 = () => {
  
          
           <div 
-          className="txtbx1" style={{padding:'10% 5%',fontWeight:'500',cursor:'pointer'}}>
+          className="txtbx1" style={{padding:'10% 5%',fontWeight:'500'}}>
                     <motion.div
                     whileHover={{
-  y:-5,
+ 
   boxShadow:'0px 10px 25px rgba(0,0,0,0.2)'
 }}
 transition={{
@@ -52,8 +58,10 @@ transition={{
                   <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}></span> 
                   Win probability, partnership intelligence, tactical context</li>
                   </ul>
-
-                  <button style={{marginTop:'6%',fontSize:'0.8rem', fontWeight:'500', border:'none',backgroundColor:'white'}}>Try CC Ai free  →</button>
+ <Link to='/contact' 
+                                     style={{textDecoration:'none'}}
+                                     onClick={usehandle}>
+                  <button style={{marginTop:'6%',fontSize:'0.8rem', fontWeight:'500', border:'none',backgroundColor:'white',cursor:'pointer'}}>Try CC Ai free  →</button></Link>
 </motion.div>
           </div>
 
@@ -62,10 +70,10 @@ transition={{
           border:'3px solid rgba(7, 3, 3, 0.07)',borderLeft:'8px solid #1e65cf'}}>
 
 
-            <div className="txtbx2" style={{padding:'10% 5%',fontWeight:'500',cursor:'pointer'}}>
+            <div className="txtbx2" style={{padding:'10% 5%',fontWeight:'500'}}>
 <motion.div
                     whileHover={{
-  y:-5,
+
   boxShadow:'0px 10px 25px rgba(0,0,0,0.2)'
 }}
 transition={{
@@ -84,8 +92,11 @@ Three modules across the life of a match. In live use in the Vitality Blast and 
                   <li style={{color:'#3f3c3c'}}> <span style={{fontWeight:'600',color:'black'}}>Explorer —  </span> every tracked delivery afterwards, in 3D and charted</li>
 
                   </ul>
+                  <Link to='/contact' 
+                                     style={{textDecoration:'none'}}
+                                     onClick={usehandle}>
 
-                  <button style={{marginTop:'12%',fontSize:'0.8rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white'}}>Request a demo  →</button>
+                  <button style={{marginTop:'12%',fontSize:'0.8rem', fontWeight:'500', border:'none',color:'#1e65cf', backgroundColor:'white',cursor:'pointer'}}>Request a demo  →</button></Link>
 </motion.div>
           </div>
 

@@ -3,6 +3,8 @@ import React from 'react'
 const contact = () => {
   return (
       <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}> 
+
+      
     <div className='heros112' style={{marginTop:'10px'}}>
 
    
@@ -151,7 +153,7 @@ Cricket Connect is based in Amsterdam's Olympic Stadium — the heart of the 192
         </div>
 
         <div>
-          <label style={{ display: 'block', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600, color: '#cbd5e1', marginBottom: '4px' }}>Organisation (optional)</label>
+          <label style={{ display: 'block', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600, color: '#000000', marginBottom: '4px' }}>Organisation (optional)</label>
           <input type="text" placeholder="Company name" style={{ width: '100%', backgroundColor: '#fcfdff', border: '1px solid #d8d8d8', borderRadius: '8px', padding: '12px 16px', color: '#010202', outline: 'none', fontSize: '14px', boxSizing: 'border-box' }} />
         </div>
 

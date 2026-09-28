@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const faq = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,12 @@ const [isOpen12, setIsOpen12] = useState(false);
 const [isOpen13, setIsOpen13] = useState(false);
 const [isOpen14, setIsOpen14] = useState(false);
 const [isOpen15, setIsOpen15] = useState(false);
+
+ const usehandle =()=>{
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
   
 
   return (
@@ -726,8 +733,10 @@ transition={{
   type:'spring',
   stiffness:300,
   damping:20
-}}>
-        <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></motion.div>
+}}><Link to='/contact' 
+                     style={{textDecoration:'none'}}
+                     onClick={usehandle}>
+        <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></Link></motion.div>
 
       </div>
 

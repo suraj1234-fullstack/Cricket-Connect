@@ -1,8 +1,16 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 const team = () => {
+  const usehandle =()=>{
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
+
   return (
     <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
     <div className='heros112' style={{marginTop:'10px'}}>
@@ -221,6 +229,8 @@ Jimmy Adams is a former West Indies Test captain and senior cricket leader with 
          
          Contact us and we'll be happy to help.</p><br/></div>
          
+
+          
                    <motion.div
                    whileHover={{
            y:-3,
@@ -233,12 +243,16 @@ Jimmy Adams is a former West Indies Test captain and senior cricket leader with 
            stiffness:300,
            damping:20
          }}>
-                 <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></motion.div>
+                <Link to='/contact' 
+                     style={{textDecoration:'none'}}
+                     onClick={usehandle}>
+                 <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Get in touch →</span></Link></motion.div>
          
                </div>
          
          
                </motion.div>
+               
 
       
     

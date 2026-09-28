@@ -1,6 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const herosection = () => {
+  const usehandle =()=>{
+          window.scrollTo({
+               top:0,
+               behavior:'smooth'}
+          )}
   return (
 
     <>
@@ -24,10 +30,16 @@ const herosection = () => {
        <p  className='hpp123' style={{fontSize:'1.5vw',width:'50vw', padding:'2% 0%',color:'#d4d0d0'}}>One intelligence engine, two products. A professional suite that prepares, decides and reviews a match — in live use across the Vitality Blast and the Caribbean Premier League — and a fan platform that explains the game and tests how well you read it.</p>
        
        <div className='ok' >
+
+        <Link to='/contact' 
+                     style={{textDecoration:'none'}}
+                     onClick={usehandle}>
        <a className='atag1' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#0a53c4',color:'white', padding:'12px 19px'}}>Explore CC  pro → </a>
 
+       
+ 
        <a  className='atag2' style={{fontSize:'1.0rem',fontWeight:'600', borderRadius:'8px', border:'none' , backgroundColor:'#ffffff',color:'white', padding:'12px 15px',color:'black',marginLeft:'2%'}}>Try CC AI free</a>
-      
+      </Link>
        </div>
     </div>
 
