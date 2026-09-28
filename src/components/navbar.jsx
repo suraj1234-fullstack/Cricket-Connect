@@ -1,7 +1,14 @@
 import React, { useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useAuth0 } from "@auth0/auth0-react";
 
 const navbar = () => {
+      const { loginWithRedirect,logout,user,isAuthenticated,isLoading} = useAuth0();
+      
+     console.log("user",user,"isloading",isLoading,"auth",isAuthenticated)
+
+
+
 
     const [num, setnum] = useState(false)
     
@@ -72,8 +79,10 @@ const navbar = () => {
              
              
              <div className='button1' >
-                
-                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'#f8f7f7', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'#525050'}} >Sign in </a></button>
+                { isAuthenticated ? <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'#ffffff', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'#0a53c4',cursor:'pointer'}} 
+                onClick={()=>logout()}> Hi {user.name} <span style={{fontSize:'1rem',fontWeight:'600',color:'grey',backgroundColor:'#ffffff',padding:'8px',borderRadius:'3px'}}>| Sign out</span> </a></button> :
+
+                <button className='btn1w'   style={{fontSize:'1.0rem',fontWeight:'600',border:'none', backgroundColor:'#f8f7f7', color:'black',marginRight:'7px'}}><a className='anchor1' style={{textDecoration:'none', color:'#525050',cursor:'pointer'}} onClick={()=>loginWithRedirect()}>Sign in </a></button> }
 
                 <Link to='/contact' 
                                      style={{textDecoration:'none'}}
