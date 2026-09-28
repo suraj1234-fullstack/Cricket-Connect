@@ -28,11 +28,11 @@ const navbar = () => {
 
         <div className="logo"style={{display:'flex', justifyContent:'center', alignItems:'center',textAlign:'center',gap:'3%' }}>
             <img  style={{width:'35px'}} src="https://cricketconnect.ai/logo.png" alt="" />
-            &nbsp;
+            
            {/*<i  style ={{fontSize:'1.7rem'}}class="fa-solid fa-volleyball"></i>*/}
            <Link to= '/'
            style={{textDecoration:'none',color:'inherit'}}>
-           <h1 style={{fontSize:'1.6rem',whiteSpace:'nowrap' }}>Cricket <span style={{color:'grey'}}>Connect</span></h1></Link>
+           <h1 style={{fontSize:'1.3rem',whiteSpace:'nowrap' }}>Cricket <span style={{color:'grey'}}>Connect</span></h1></Link>
         </div>&nbsp;&nbsp;
            
         <div  className={num ? 'mobilemenubar' : 'allmenubar' } >
@@ -92,7 +92,7 @@ const navbar = () => {
         
 
 
-     <div className="media3dot" style={{position:'absolute',fontSize:'1.5rem',right:'0%',paddingRight:'15px'}}>
+     <div className="media3dot" style={{position:'absolute',fontSize:'1.2rem',right:'0%',paddingRight:'15px'}}>
             <i style={{cursor:'pointer',marginRight:'10px'}}onClick={usehandle} className={`fa-solid ${num ? 'fa-xmark' : 'fa-bars'}`}></i>
             
         </div>

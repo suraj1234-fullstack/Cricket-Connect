@@ -16,7 +16,7 @@ const herosection = () => {
 
     <div className="txtbox12"style={{fontFamily:'serif',marginTop:'3%'}}>
       
-        <p  style={{fontSize:'0.7rem',color:'grey',fontWeight:'700'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
+        <p  style={{fontSize:'0.7rem',color:'grey',fontWeight:'600'}}><i  style={{color:"#135ac5",fontSize:'0.7rem',textAlign:'center',  boxShadow:' 0 0 0 3px #1e6bff33 ', borderRadius:'50%'}} class="fa-solid fa-circle"></i>&nbsp; &nbsp;AI-NATIVE CRICKET INTELLIENCE</p>
 
 
        <p className='pfont124'  style={{fontSize:'5vw',fontWeight:'600'}}> <span style={{whiteSpace:"nowrap",fontFamily:'serif'}}>
@@ -43,7 +43,7 @@ const herosection = () => {
        </div>
     </div>
 
-
+ 
 
      <div className='hs1'  style={{display:'flex',alignItems:'center', justifyContent:'center',objectFit:'cover'}}>
       <video className='hs21'  style={{ filter: 'brightness(0.3) contrast()'}} src="heropagevdu.mp4" autoPlay loop muted playsInline />

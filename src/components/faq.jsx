@@ -736,7 +736,7 @@ transition={{
 }}><Link to='/contact' 
                      style={{textDecoration:'none'}}
                      onClick={usehandle}>
-        <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></Link></motion.div>
+        <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10px 13px',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Contact us →</span></Link></motion.div>
 
       </div>
 

@@ -13,6 +13,7 @@ const team = () => {
 
   return (
     <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+
     <div className='heros112' style={{marginTop:'10px'}}>
 
    
@@ -231,8 +232,14 @@ Jimmy Adams is a former West Indies Test captain and senior cricket leader with 
          
 
           
-                   <motion.div
+                   <Link to='/contact' 
+                     style={{textDecoration:'none'}}
+                     onClick={usehandle}><motion.div className='ctsus'
+                     style={{display:'inline-block'}}
+                     
+                   
                    whileHover={{
+                    
            y:-3,
            border:'1px solid #a8a8a8',
            boxShadow:'0px 10px 25px rgba(0,0,0,0.3)',
@@ -243,10 +250,9 @@ Jimmy Adams is a former West Indies Test captain and senior cricket leader with 
            stiffness:300,
            damping:20
          }}>
-                <Link to='/contact' 
-                     style={{textDecoration:'none'}}
-                     onClick={usehandle}>
-                 <span style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10% 13%',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Get in touch →</span></Link></motion.div>
+                
+                 <a className='a786' style={{color:"white",fontWeight:'700',border:'2px solid #135ac5',padding:'10px 20px',whiteSpace:'nowrap',backgroundColor:'#135ac5',cursor:'pointer', borderRadius:'9px'}}>Get in touch →</a>
+                 </motion.div></Link>
          
                </div>
          

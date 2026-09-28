@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const hero3 = () => {
   const usehandle =()=>{
@@ -23,7 +24,13 @@ const hero3 = () => {
 }}>
 
 
-            <div className="card1" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
+            <motion.div  whileHover={{
+                    
+           y:-3,
+          
+        
+          
+         }}className="card1" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-reporting.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> Before · Reporting</p>
@@ -31,12 +38,18 @@ const hero3 = () => {
                      <p style={{color:'#2c2a2add'}}> A full opposition report for the fixture — as a deck, a document, or read in the app with a chat that knows the page.</p>
 
               </div>
-            </div>
+            </motion.div>
 
 
 
 
-            <div className="card2" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
+            <motion.div  whileHover={{
+                    
+           y:-3,
+          
+        
+          
+         }}className="card2" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-analysis.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> During · Analysis</p>
@@ -48,8 +61,16 @@ const hero3 = () => {
               </div>
 
 
-            </div>
-            <div className="card3" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
+            </motion.div>
+
+
+            <motion.div  whileHover={{
+                    
+           y:-3,
+          
+        
+          
+         }}className="card3" style={{width:'350px', backgroundColor:'white',height:'400px',borderRadius:'10px'}}>
               <div><img style={{width:'90%',padding:'4%'}}src="https://cricketconnect.ai/images/home/moment-explorer.jpg" alt="ai" /></div>
               <div style={{color:'black', padding:'5%'}}>
                      <p style={{fontSize:'0.8rem',textTransform:'uppercase',color:'#1e65cf',fontWeight:'500'}}> After · Explorer</p>
@@ -61,7 +82,7 @@ const hero3 = () => {
 
 
 
-            </div>
+            </motion.div>
 
             
        
@@ -69,7 +90,7 @@ const hero3 = () => {
 <Link to='/howitwork' 
                      style={{textDecoration:'none'}}
                      onClick={usehandle}>
-                  <div className="lgs32" style={{color:'#1e65cf' , height:'50px',fontWeight:'700',cursor:'pointer'}}>
+                  <div className="lgs32" style={{color:'#1e65cf' , height:'50px',fontWeight:'500',cursor:'pointer'}}>
                     <p>See how the three fit together →</p>
                   </div>
                   </Link>

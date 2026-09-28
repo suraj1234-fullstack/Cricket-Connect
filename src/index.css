@@ -96,7 +96,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
      
   }
   .logoparent{
-    padding: 4%;
+    padding: 4% !important;
   }
   
 }
@@ -120,8 +120,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .mobilemenubar .a1{
   display: flex;
   width: 100%;
- padding-left: 10%;
+ padding-left: 6%;
  cursor: pointer;
+ font-size: 1.1rem;
+ color: rgb(41, 40, 40);
   
 }
 .mobilemenubar .aboutlink{
@@ -178,6 +180,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
      width: 100%;
      height: 100%;
      object-fit: cover;
+     
 
   }
 .img12{
@@ -193,15 +196,41 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .faq1{
   width: 60%;
 }
+@media (min-width:500px) and (max-width:1000px)  {
+.hs1 .hs21{
+  width: 100%;
+  height: 90%;
+}
+}
+@media (max-width:500px)  {
+.hs1 .hs21{
+  width: 240%;
+  height: 50% ;
+}
+}
+
 
 @media (max-width:550px) {
+
+  
+
+  .txtbx2{
+    font-weight: 400 !important;
+  }
+  .txtbx1{
+    font-weight: 400 !important;
+  }
+  .card2{
+    height: auto !important;
+  }
   .faq1{
   width: 90% ;
 }
 
   .divflex{
-    
+   
     flex-direction: column;
+    
    
     
   }
@@ -219,10 +248,12 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   color: #135ac5 ;
 
 }
+
 .divflex{
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
 }
 
 
@@ -311,9 +342,17 @@ color: white;
 
 @media (max-width:500px) {
 
+  .headings1 .p9871 {
+    font-size: 2.5rem;
+    padding: 10px 0px;
+  }
+
   .abts211{
+    
+   
+
     padding: 5%;
-    width: 80% !important;
+    width: 90% !important;
     
   }
   .abts211 .div542{
@@ -490,6 +529,7 @@ color: white;
        flex-direction: column ;
         align-items: center;
         text-align: center;
+        justify-content: center;
         margin: 5%;
 
        
